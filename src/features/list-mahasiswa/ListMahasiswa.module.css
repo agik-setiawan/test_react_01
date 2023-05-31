@@ -1,0 +1,14 @@
+.list_item_container{
+    padding-top: 10px;
+}
+.list_item{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    align-items: center;
+}
+.list_row{
+    background-color: #ececec;
+    width: 100%;
+    padding: 10px;
+}
